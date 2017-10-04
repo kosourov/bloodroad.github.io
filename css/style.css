@@ -1,0 +1,78 @@
+	@font-face{
+		font-family:'FontAwesome';
+		src:url('../fonts/fontawesome-webfont.eot?v=4.5.0');
+		src:url('../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'),
+		url('../fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'),
+		url('../fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'),
+		url('../fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'),
+		url('../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+		font-weight:normal;font-style:normal;
+	}
+	#title{background:#222;border:1px solid #333;position:absolute;left:0;top:0;padding:10px;border-radius:2px;display:none;z-index:99;}
+	
+	.background_right{width:697px;height:100%;position:fixed;right:0;top:0;z-index:0;background-size:auto 100%;background-repeat:no-repeat;background-position:right;}
+	.background_right.b1{background-image:url(../img/bg_right1.png);}
+	.background_right.b2{background-image:url(../img/bg_right2.png);}
+	.background_right.b3{background-image:url(../img/bg_right3.png);}
+	.background_right.b4{background-image:url(../img/bg_right4.png);}
+	.background_right.b5{background-image:url(../img/bg_right5.png);}
+	.background_right.b6{background-image:url(../img/bg_right6.png);}
+	
+	html,body{margin:0px;padding:0px;left:0px;top:0px;border:0px;outline:0;font-size:16px;color:#aaa;background:#111113;font:300 13px 'Open Sans',Arial,Helvetica,sans-serif;}
+	canvas,table,input,div,h1,h2,h3,hr{margin:0px;padding:0px;outline:0;}
+	a{text-decoration:none;color:#fff;}
+	a:hover{text-decoration:underline;}
+	a.button{text-decoration:none;}
+	hr{background:#444;border:0px;margin:0;padding:0px;width:100%;height:1px;}
+	h1,h2,h3{margin:0px;padding:0px;font-weight:normal;}
+	h1{font-size:30px;}
+	h2{font-size:25px;}
+	h3{font-size:18px;}
+	.clear{clear:both;}
+	
+	.c_white{color:#fff;}
+	.c_black{color:#1C1C22;}
+	.c_gray{color:#888;}
+	.c_red{color:#c8354e;}.c_red_f{color:#db334f;}
+	.c_green{color:#45da6c;}.c_green_f{color:#53da45;}
+	.c_blue{color:#45B5DA;}.c_blue_f{color:#4599da;}
+	.c_yellow{color:#FFC870;}.c_yellow_f{color:#fff770;}
+	
+	.b_gray{background:#999;color:#222;}
+	.b_red{background:#ca3838;}.b_red_f{background:#c8354e;}
+	.b_red:hover{background:#da4848;}
+	.b_green{background:#6CB200;}.b_green_f{background:#45da6c;}
+	.b_green:hover{background:#7CC210;}
+	.b_blue{background:#38A0CA;}.b_blue_f{background:#45B5DA;}
+	.b_blue:hover{background:#48B0DA;}
+	.b_yellow{background:#bbca38;}.b_yellow_f{background:#FFC870;}
+	.b_yellow:hover{background:#cad948;}
+	
+	.icon:before{font-family:FontAwesome;}
+	.icon.r1:before{font-size:60px;}.icon.r2:before{font-size:34px;}.icon.r3:before{font-size:inherit;margin-right:5px;}
+	.icon.server:before{content: "\f233";}
+	
+	.button{transition:all 0.5s ease;display:inline-block;color:#fff;padding:7px;cursor:pointer;border-radius:2px;border:0px;}
+	.button:disabled{background:#666;color:#ddd;}
+	.button.big{display:block;padding:15px;text-align:left;width:200px;}
+	.button.big.icon:before{float:left;margin-right:15px;}
+	
+	
+	#preloader{background:#1e1a1a;position:fixed;left:0;top:0;width:100%;height:100%;z-index:99;}
+	#preloader_bg{width:1024px;height:159px;background:url(../img/loader.png) no-repeat;position:absolute;top:50%;left:50%;margin-left:-512px;margin-top:-80px;}
+	#preloader_fill{width:0px;height:159px;background:url(../img/loader_fill.png) no-repeat;}
+	
+	#wrapper{min-width:1000px;max-width:1100px;margin:0 auto;margin-top:70px;min-height:100%;width:90%;z-index:2;position:relative;}
+	#logo{background:url(../img/logo.png) no-repeat;width:900px;height:119px;display:inline-block;}
+	
+	
+	.start_block{background:#17171b;width:100%;padding:15px;box-sizing:border-box;border:1px solid #27272b;}
+	
+	table.servers td{height:100%;box-sizing:border-box;}
+	.btserver{display:block;text-align:center;margin-top:10px;}
+	.block_server{box-sizing:border-box;width:350px;border:1px solid #37373b;background:#070707;padding:3px;font-size:16px;height:100%;margin-left:-5px;margin-right:-5px;}
+	.block_server .image_server{cursor:pointer;background-size:400px;width:100%;height:200px;background-position:center;background-repeat:no-repeat;}
+	.block_server .image_server .coming_soon{transition:all 0.5s ease;background:rgba(0,0,0,0.5) repeat;color:#fff;height:100%;font-size:30px;text-align:center;line-height:200px;}
+	.block_server .icon{display:inline-block;}
+	.block_server .progress{width:100%;height:6px;background:#111;padding:2px;border-radius:6px;}
+	.block_server .progress .fill{height:6px;border-radius:6px;}
